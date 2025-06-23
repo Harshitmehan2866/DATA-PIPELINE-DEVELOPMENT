@@ -12,6 +12,10 @@
 
 *MENTOR*: NEELA SANTOSH
 
+*OUTPUT*: 
+
+![Image](https://github.com/user-attachments/assets/6f0eeab0-3741-4acd-8da4-37f368e15e16)
+
 This project was built to move data from one place to another, clean it, and make it ready for reports, dashboards, or analysis. We used a set of popular tools that work well together to build, run, and manage the data pipeline.
 
 1.Apache Airflow Apache is a tool that helps you schedule and manage tasks. In our pipeline, we use it to run jobs like pulling data, cleaning it, and saving it. You can think of it like a smart alarm clock that tells each step when to start and stop. We used it to plan and organize the steps in the pipeline. It shows a clear visual of what’s happening and when.
