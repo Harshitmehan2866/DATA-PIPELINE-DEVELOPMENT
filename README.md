@@ -14,13 +14,12 @@
 
 *OUTPUT*: 
 
-![Image](https://github.com/user-attachments/assets/6f0eeab0-3741-4acd-8da4-37f368e15e16)
+![Image](https://github.com/user-attachments/assets/2a384e71-b22c-4a13-a6de-ed1c732ad37a)
 
-
-Tools Used in Data Pipeline Development
 
 This project was built to move data from one place to another, clean it, and make it ready for reports, dashboards, or analysis. We used a set of popular tools that work well together to build, run, and manage the data pipeline.
 
+Tools Used in Data Pipeline Development
 1. Apache Airflow Apache is a tool that helps you schedule and manage tasks. In our pipeline, we use it to run jobs like pulling data, cleaning it, and saving it. You can think of it like a smart alarm clock that tells each step when to start and stop. We used it to plan and organize the steps in the pipeline. It shows a clear visual of what’s happening and when.
 
 2. Apache Kafka is used to move data in real time. If data is being created quickly — like from sensors, websites, or apps — Kafka helps us capture and send it where it needs to go. It’s very fast and handles lots of data. We used Kafka to send data to our system as soon as it was available.
