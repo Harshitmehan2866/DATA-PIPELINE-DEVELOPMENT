@@ -21,7 +21,7 @@ Tools Used in Data Pipeline Development
 
 This project was built to move data from one place to another, clean it, and make it ready for reports, dashboards, or analysis. We used a set of popular tools that work well together to build, run, and manage the data pipeline.
 
-1.Apache Airflow Apache is a tool that helps you schedule and manage tasks. In our pipeline, we use it to run jobs like pulling data, cleaning it, and saving it. You can think of it like a smart alarm clock that tells each step when to start and stop. We used it to plan and organize the steps in the pipeline. It shows a clear visual of what’s happening and when.
+1. Apache Airflow Apache is a tool that helps you schedule and manage tasks. In our pipeline, we use it to run jobs like pulling data, cleaning it, and saving it. You can think of it like a smart alarm clock that tells each step when to start and stop. We used it to plan and organize the steps in the pipeline. It shows a clear visual of what’s happening and when.
 
 2. Apache Kafka is used to move data in real time. If data is being created quickly — like from sensors, websites, or apps — Kafka helps us capture and send it where it needs to go. It’s very fast and handles lots of data. We used Kafka to send data to our system as soon as it was available.
 
@@ -41,24 +41,24 @@ Editor / Platform Used
 
 We used Visual Studio Code (VS Code) to write and test our code. It’s a free and easy-to-use code editor that works well with Python, Docker, and Git. It has helpful plugins for writing better code. We used the built-in terminal to run scripts and manage the pipeline. For running the pipeline in real-world situations, we used cloud platforms like:
 
-Amazon Web Services (AWS) – to run the pipeline and store the data.
+1. Amazon Web Services (AWS) – to run the pipeline and store the data.
 
-Google Cloud Platform (GCP) – another option for cloud deployment.
+2. Google Cloud Platform (GCP) – another option for cloud deployment.
 
-Local Machine with Docker – for testing before putting it online.
+3. Local Machine with Docker – for testing before putting it online.
 
 
 This data pipeline is applicable across multiple industries and use cases that involve data collection, transformation, and analysis. Some common applications include:
 
-E-commerce: Tracking sales, customer behavior, and orders.
+1. E-commerce: Tracking sales, customer behavior, and orders.
 
-Healthcare: Collecting patient or device data for analysis.
+2. Healthcare: Collecting patient or device data for analysis.
 
-Finance: Analyzing bank transactions or detecting fraud.
+3. Finance: Analyzing bank transactions or detecting fraud.
 
-Marketing: Collecting data from websites, emails, and ads to see what’s working.
+4. Marketing: Collecting data from websites, emails, and ads to see what’s working.
 
-IoT (Internet of Things): Gathering data from sensors in real time
+5. IoT (Internet of Things): Gathering data from sensors in real time
 
-Marketing and Customer Insights: Ingesting clickstream data and CRM information to track user engagement and campaign performance.
+6. Marketing and Customer Insights: Ingesting clickstream data and CRM information to track user engagement and campaign performance.
 
